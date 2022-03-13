@@ -1,0 +1,4 @@
+{
+  "serverPort" : 5000,
+  "dbUrl": "mongodb+srv://wy:wy5455@cluster0.fkce8.mongodb.net/wyDrop?retryWrites=true&w=majority"
+}
