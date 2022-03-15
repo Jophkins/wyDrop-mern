@@ -1,4 +1,4 @@
-// "express", "mongoose", "config", "nodemon -D", "bcryptjs", "express-validator" modules
+// "express", "mongoose", "config", "nodemon -D", "bcryptjs", "jsonwebtoken" "express-validator" modules
 
 const express = require('express');
 const mongoose = require('mongoose');
