@@ -1,0 +1,52 @@
+@import "../../utils/mixins";
+
+.registration {
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  align-items: center;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow:  6px 6px 12px #868686,
+  -6px -6px 12px #ffffff;
+
+  &__header {
+    @include font-montserrat;
+
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  &__btn {
+    @include font-montserrat;
+
+    margin-top: 2em;
+    padding: 10px;
+    width: 100px;
+
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow:  2px 2px 5px #868686,
+    -2px -2px 5px #ffffff;
+  }
+
+  &__btn:hover {
+    cursor: pointer;
+
+    border-radius: 8px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow:  2px 2px 5px #868686,
+    -2px 2px 5px #ffffff;
+  }
+
+  &__btn:active {
+    border-radius: 8px;
+    background: #e0e0e0;
+    box-shadow: inset 5px 5px 5px #868686,
+    inset -5px -5px 5px #ffffff;
+  }
+}

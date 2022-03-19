@@ -1,0 +1,22 @@
+@import "../../utils/mixins";
+
+.input {
+  @include font-montserrat;
+
+  margin-top: 2em;
+  padding: 10px;
+  width: 80%;
+  border: none;
+  border-radius: 8px;
+  background: #e0e0e0;
+  box-shadow: inset 2px 5px 2px #868686,
+  inset -2px -5px 2px #ffffff;
+  font-weight: 700;
+
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: inset 2px 5px 2px #868686,
+  inset 0px -5px 0px #6CBFF8;
+}
